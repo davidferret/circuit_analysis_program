@@ -1,14 +1,12 @@
-# Circuit Analysis Program
+# Circuit Analysis Project
 
-This program calculates voltage, power, and total power for a given circuit based on user-inputted resistances and currents. It supports both series and parallel circuits and provides visualization and data export functionality.
+This C project helps you analyze electrical circuits by calculating voltage, power, and total power for a given set of resistances and currents. It works with both series and parallel circuits and even provides a simple visualization of the circuit.
 
-- **Circuit Type Selection**: Allows users to analyze series or parallel circuits.
-- **Voltage and Power Calculation**: Computes values for each resistor based on circuit type.
-- **Total Power Computation**: Aggregates power consumption for the entire circuit.
-- **Data Export**: Saves results to a text file for documentation.
-- **Circuit Visualization**: Provides a basic textual representation of the circuit structure.
+You start by selecting whether you're analyzing a series or parallel circuit. The project then takes in resistor values and current levels, calculates voltage and power for each resistor, and sums up the total power for the circuit. If needed, you can export the results to a text file for documentation.
 
-## Example Usage
+I built this project because I’ve always been interested in how circuits work and wanted a way to quickly run calculations without doing them manually. It was a fun way to apply electrical theory to something practical, and I hope it makes circuit analysis easier for you too!
+
+## Example Output
 ```
 Enter the number of resistors (max 100): 3
 Enter the circuit type (1 for Series, 2 for Parallel): 1
